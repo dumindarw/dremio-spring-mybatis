@@ -12,7 +12,7 @@
     <properties>
         <spring.version>5.2.5.RELEASE</spring.version>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.9.5</jackson.version>
         <mybatis.version>3.4.6</mybatis.version>
     </properties>
 
