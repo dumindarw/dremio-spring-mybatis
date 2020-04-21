@@ -17,9 +17,9 @@ public class DataConfig {
     public DataSource dataSource() {
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass(com.dremio.jdbc.Driver.class);
-        dataSource.setUsername("medisoftuser");
-        dataSource.setUrl("jdbc:dremio:direct=127.0.0.1:31010;schema=COVID19-DASHBOARD");
-        dataSource.setPassword("medisoft007");
+        dataSource.setUsername("user8abc");
+        dataSource.setUrl("jdbc:dremio:direct=127.0.0.1:31010;schema=SPACE-1");
+        dataSource.setPassword("pw@@w@3W2");
 
 
         return dataSource;
