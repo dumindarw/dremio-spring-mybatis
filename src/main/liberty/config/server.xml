@@ -1,0 +1,21 @@
+<server description="OLServer">
+
+  <variable name="default.http.port" defaultValue="9080" />
+  <variable name="default.https.port" defaultValue="9443" />
+  <variable name="app.context.root" defaultValue="/"/>
+
+  <featureManager>
+    <feature>jaxrs-2.1</feature>
+
+  </featureManager>
+
+
+    <httpEndpoint httpPort="${default.http.port}"
+                  httpsPort="${default.https.port}" id="defaultHttpEndpoint"  host="*" />
+
+    <application type="war"
+                 id="dremio-poc"
+                 name="dremio-poc"
+                 location="dremio-poc.war"/>
+
+</server>
